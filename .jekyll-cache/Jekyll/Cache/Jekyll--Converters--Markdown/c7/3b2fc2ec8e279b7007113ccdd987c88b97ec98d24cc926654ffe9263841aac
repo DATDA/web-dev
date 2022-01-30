@@ -1,0 +1,41 @@
+I"’<h1 id="meeting-notes-dec-05-2019">Meeting Notes Dec. 05, 2019:</h1>
+
+<h2 id="hacker-jeopardy---scrypy">Hacker Jeopardy -&gt; @scrypy</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>forgot sorry XP</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li>forgot sorry XP</li>
+    </ul>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>forgot sorry XP</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="last-meeting-of-the-semester">Last meeting of the semester!</h2>
+
+<h2 id="new-meeting-time-announcement---scrypy">New meeting time announcement -&gt; @scrypy</h2>
+<ul>
+  <li>Surprise! We are now going to meet on Wednesdays at 5:00PM.</li>
+</ul>
+
+<h2 id="mitre-ctf-discussion---scrypy">MITRE CTF discussion -&gt; @scrypy</h2>
+<ul>
+  <li>The MITRE 2020 CTF focuses on hardware and embedded system security. Talk about who might be interested in this.</li>
+</ul>
+
+<h2 id="backdoored-putty-analysis---scrypy">Backdoored Putty Analysis -&gt; @scrypy</h2>
+<ul>
+  <li>Using Ghidra, the backdoored Putty program was compared to a clean putty program to determine the location of the code cave containing the backdoor.</li>
+</ul>
+
+<p><br />
+@scrypy</p>
+:ET

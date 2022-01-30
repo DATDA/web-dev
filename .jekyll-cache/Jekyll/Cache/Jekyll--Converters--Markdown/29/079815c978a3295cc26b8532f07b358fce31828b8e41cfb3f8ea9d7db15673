@@ -1,0 +1,40 @@
+I"2<h2 id="hacker-jeopardy">Hacker Jeopardy</h2>
+
+<ul>
+  <li>Newz: This is the amount of money Google will pay you if you can exploit a linux kernel flaw.
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">$31,337</code></li>
+    </ul>
+  </li>
+  <li>Toolz: <code class="language-plaintext highlighter-rouge">awk -v cols=$(tput cols) '{e=int(log($10)*5); print("\x1b[42m" substr($0, 1, e) "\x1b[0m" substr($0, e+1) )}' access_log | less -SR</code></li>
+  <li>Knawledge: This is the name of a virtual machine dedicated to security monitoring capabilities
+    <ul>
+      <li>Security Onion</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="website-revamp">Website Revamp</h2>
+
+<ul>
+  <li>Discussed the possiblity of revamping the website (aka changing the jekyll template being used for the website)</li>
+  <li>Trying to “combine” the current website with the wiki in github. Better way to organize the presentations we have stored in the github</li>
+</ul>
+
+<h2 id="review-of-problems-from-previous-ctfs">Review of problems from previous CTFs</h2>
+
+<ul>
+  <li>Discussed the first couple of problems from the Flareon competition</li>
+  <li>went over a couple interesting problems that stumped us from the NCL Individual competition</li>
+</ul>
+
+<h2 id="planning-ncl-meetup-this-weekend">Planning NCL Meetup this weekend</h2>
+
+<ul>
+  <li>meeting in EERB 228 on Saturday from 11 AM till 4 PM to work on the NCL team competition.</li>
+</ul>
+
+<h2 id="raffle-giveaway">Raffle Giveaway</h2>
+
+<p>Gave away a Humble Bundle book bundle to one lucky member who was present at the meeting.</p>
+:ET

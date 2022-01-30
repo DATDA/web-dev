@@ -1,0 +1,31 @@
+I"<<h1 id="meeting-notes-sept-12-2019">Meeting Notes Sept. 12, 2019:</h1>
+
+<h2 id="wifi-hacking---bugg">Wifi Hacking -&gt; @bugg</h2>
+
+<h2 id="hacker-jeopardy---scrypy">Hacker Jeopardy -&gt; @scrypy</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>France recently released it’s ‘Internat Applique aux Operations Cyberespace’ (international law applied to operations in cyberspace). Many of the points outlined in this doctrine conflict with <em>this</em> existing, widely-accepted guide on the same topic. (Tallinn Manual)</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">sed 's/Nick|nick/John/g' report.txt</code></li>
+    </ul>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>This is the name of the popular defense in depth network model commonly used in industrial control system networks. (ISA-95/Purdue)
+<!--This extremely popular (now) computing construct is an isolated user space in which computer programs run directly on the host operating system's kernel (and file system) but have access to a restricted subset of its resources.--></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="summer-internships---scrypy">Summer Internships -&gt; @scrypy</h2>
+
+<h2 id="csaw-ctf-intro---scrypy">CSAW CTF intro -&gt; @scrypy</h2>
+
+<p><br />
+@scrypy</p>
+:ET

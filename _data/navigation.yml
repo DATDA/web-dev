@@ -1,0 +1,51 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Calendar"
+    url: /calendar/
+  - title: "Wiki"
+    url: /wiki/
+  - title: "Donate"
+    url: /donate/
+  - title: "Contact"
+    url: /contact/
+  - title: "Discord"
+    url: /discord/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+blog:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: Past Presentations
+    url: /presentations
+
+  - title: Competitions
+    url: /competitions/
+    children:
+      - title: "Tools by Category"
+        url: /competitions/
+      - title: "Problem Writeups"
+        url: /competitions/
+  
+  - title: Roles & Responsibilities
+    url: /roles-responsibilities/
+    children:
+      - title: "Tools by Category"
+        url: /competitions/
+      - title: "Problem Writeups"
+        url: /competitions/

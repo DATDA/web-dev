@@ -1,0 +1,106 @@
+I"�5<p>by scrypy</p>
+
+<p>Scripts are great for automating, controlling, and otherwise simplifying your workflows on a computer. But they can be confusing when first starting out and trying to figure out exactly how to make them work.</p>
+
+<h2 id="bash">Bash</h2>
+
+<p>Consider the command <code class="language-plaintext highlighter-rouge">echo "hello world"</code>. This should print out the words ‘hello world’ right? Now, what if you want to echo the most memory intensive process on your system every 30 seconds? You could sit at the terminal and use your bash history to re-submit this command according to the stopwatch on your phone. Or you can write a script that does it for you!</p>
+
+<p>The beginning of every bash script should begin with <code class="language-plaintext highlighter-rouge">#!/bin/bash</code>. The <code class="language-plaintext highlighter-rouge">#!</code> is called a <a href="https://en.wikipedia.org/wiki/Shebang_(Unix)">shebang</a> and lets your computer know that this file should be treated as a script, and then whatever comes after it is going to be the interpreter that you want the computer to use when running this script. After changing the file to be executable by using <code class="language-plaintext highlighter-rouge">chmod u+x &lt;filename&gt;</code> then when you run the file by typing <code class="language-plaintext highlighter-rouge">./&lt;filename&gt;</code> into the terminal it will use the interpreter on the shebang line to execute the commands within.</p>
+
+<h5 id="basic-script">Basic Script</h5>
+
+<p>Now back to the scripting. Create a new file and enter the below text into it, make it executable, and run it.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s1">'hello this is my first script!'</span>
+<span class="c">#this line is a comment</span>
+</code></pre></div></div>
+
+<p>Congrats! You just made and ran a bash script. Granted it’s really basic and doesn’t do a lot so lets remedy that. Go to your terminal and enter the following command(<a href="https://explainshell.com/explain?cmd=ps+-aux">explanation here</a>): <code class="language-plaintext highlighter-rouge">ps -aux</code>. This should print out a list of almost all the processes running on your linux machine, along with the amount of CPU and memory that it is using(amongst other things). Now enter this command courtesy of <a href="https://www.garron.me/en/go2linux/how-find-which-process-eating-ram-memory-linux.html">Guillermo Garron</a>: <code class="language-plaintext highlighter-rouge">ps aux | awk '{print $2, $4, $11}' | sort -k2rn | head -n 20</code>. This nice series of <a href="https://www.geeksforgeeks.org/piping-in-unix-or-linux/">piped</a> commands will print the top 20 most RAM intensive processes into your terminal.</p>
+
+<h5 id="capturing-command-output">Capturing Command Output</h5>
+
+<p>But suppose we want to take those 20 processes and do some further investigating into them. This is where some of the power of scripting comes into play. We will take the output from that command and then store the output into an array, where each line is an element of the array. The process of capturing the output from a command for further use is something known as <a href="http://www.gnu.org/software/bash/manual/bashref.html#Command-Substitution">command substitution</a><a href="https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-bash-assign-variable-command-output/">[2]</a><a href="https://www.oreilly.com/library/view/bash-cookbook/0596526784/ch13s04.html">[3]</a>. Copy/pasta the below script to see it in action:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nv">example1</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo </span>hello<span class="sb">`</span>
+<span class="nv">example2</span><span class="o">=</span><span class="si">$(</span><span class="nb">echo </span>world<span class="si">)</span>
+<span class="nb">echo</span> <span class="nv">$example1</span> <span class="nv">$example2</span>
+</code></pre></div></div>
+
+<p>This will perform 3 different echo calls, where the first is captured into the variable example1, the second is captured in variable example2, and the third prints out the contents of each variable. This is the basic example of how to store the output of a command into a single variable, and we can treat this variable as an array of sorts. Since our output contained in the array contains newline characters, we are able to iterate through the variable like it is an array and we can extract each whitespaced element from the variable.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nv">memory_hogs</span><span class="o">=</span><span class="si">$(</span>ps aux | <span class="nb">awk</span> <span class="s1">'{print $2, $4, $11}'</span> | <span class="nb">sort</span> <span class="nt">-k2rn</span> | <span class="nb">head</span> <span class="nt">-n</span> 20<span class="si">)</span>
+<span class="k">for </span>i <span class="k">in</span> <span class="nv">$memory_hogs</span><span class="p">;</span> <span class="k">do </span><span class="nb">echo</span> <span class="s2">"array output=&gt;</span><span class="nv">$i</span><span class="s2">"</span><span class="p">;</span> <span class="k">done</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="python">Python</h2>
+
+<p>Python is a great scripting utility that combines your abilities to write programs with the power of system administration utilities. Python scripts, similar to the bash scripts above, should begin with a shebang and your choice of python interpreter(i.e. <code class="language-plaintext highlighter-rouge">#!/usr/bin/python3.5</code>).</p>
+
+<p>The most common libraries when writing a script to perform system administration functions are the <a href="https://docs.python.org/3/library/os.html">os</a>,<a href="https://docs.python.org/3/library/sys.html">sys</a>, <a href="https://docs.python.org/3/library/re.html">re</a>, and <a href="https://docs.python.org/3/library/subprocess.html">subprocess</a> libraries which give you access to operating system, system-specific parameters, regular expression capabilities, and subprocess management(respectively) which can be imported using: <code class="language-plaintext highlighter-rouge">import os,sys,re,subprocess</code>.</p>
+
+<h5 id="basic-script-1">Basic Script</h5>
+
+<p>Here is an example of a basic script that will take two input parameters and print them both out, then print out the amount of memory being used by our script(using the <code class="language-plaintext highlighter-rouge">psutil</code> library, which can be installed by typing <code class="language-plaintext highlighter-rouge">pip3 install --user psutil</code> in your terminal):</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/python3.5
+</span><span class="kn">import</span> <span class="nn">sys</span><span class="p">,</span> <span class="n">psutil</span><span class="p">,</span> <span class="n">os</span>
+
+<span class="c1">#this is a comment
+</span>
+<span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span><span class="o">&lt;</span><span class="mi">3</span><span class="p">):</span><span class="c1">#make sure we have the right number of inputs
+</span>  <span class="k">print</span><span class="p">(</span><span class="s">'you need more arguments'</span><span class="p">)</span>
+  <span class="n">sys</span><span class="p">.</span><span class="nb">exit</span><span class="p">()</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">'{} {}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
+<span class="n">process</span> <span class="o">=</span> <span class="n">psutil</span><span class="p">.</span><span class="n">Process</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">getpid</span><span class="p">())</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'This script is called {} and is using {} bytes'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">process</span><span class="p">.</span><span class="n">memory_info</span><span class="p">().</span><span class="n">rss</span><span class="p">))</span>  <span class="c1"># in bytes
+</span></code></pre></div></div>
+<p><a href="https://stackoverflow.com/questions/938733/total-memory-used-by-python-process">snippet cred</a></p>
+
+<h5 id="capturing-command-output-1">Capturing Command Output</h5>
+
+<p>Now, using our <code class="language-plaintext highlighter-rouge">ps aux</code> command from above, we write the following script to capture the output of that from the python side of things, and then print out the first 4 lines of the output:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/python3.5
+</span><span class="kn">import</span> <span class="nn">subprocess</span>
+
+<span class="n">my_output</span> <span class="o">=</span> <span class="n">subprocess</span><span class="p">.</span><span class="n">run</span><span class="p">([</span><span class="s">"ps"</span><span class="p">,</span> <span class="s">"aux"</span><span class="p">],</span> <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="p">.</span><span class="n">PIPE</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">my_output</span><span class="p">).</span><span class="n">split</span><span class="p">(</span><span class="s">'</span><span class="se">\\</span><span class="s">n'</span><span class="p">)[:</span><span class="mi">4</span><span class="p">]:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'my split line=&gt;{}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">line</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'*********'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="perl">Perl</h2>
+<p>Perl is a beautifully ugly scripting language that is very flexible and allows you to get away with really nasty syntax and is extremely fun to write with. As with the previous languages, start these scripts with the following shebang: <code class="language-plaintext highlighter-rouge">#!/usr/bin/perl</code>.</p>
+
+<h5 id="basic-script-2">Basic Script</h5>
+
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/perl</span>
+<span class="k">print</span> <span class="p">"</span><span class="s2">hello world fro the script</span><span class="se">\n</span><span class="p">";</span>
+<span class="k">print</span> <span class="p">"</span><span class="s2">input values from the user are </span><span class="si">@ARGV</span><span class="se">\n</span><span class="p">";</span>
+<span class="k">print</span> <span class="p">"</span><span class="s2">first user provided input value is: </span><span class="si">$ARGV</span><span class="s2">[0]</span><span class="se">\n</span><span class="p">";</span>
+<span class="k">print</span> <span class="p">"</span><span class="s2">second user input is: </span><span class="si">$ARGV</span><span class="s2">[1]</span><span class="se">\n</span><span class="p">";</span>
+</code></pre></div></div>
+
+<h5 id="capturing-command-output-2">Capturing Command Output</h5>
+
+<p>Perl captures the output of commands in a similar way to bash:</p>
+
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/perl</span>
+<span class="nv">@output</span> <span class="o">=</span> <span class="p">`</span><span class="sb">ps aux | awk '{print $2, $4, $11}' | sort -k2rn | head -n 20</span><span class="p">`;</span>
+<span class="nb">chomp</span> <span class="nv">@output</span><span class="p">;</span><span class="c1">#get rid of newline characters in the strings</span>
+<span class="k">foreach</span> <span class="nv">$line</span> <span class="p">(</span><span class="nv">@output</span><span class="p">){</span>
+  <span class="k">print</span> <span class="p">"</span><span class="s2">output line=&gt; </span><span class="si">$line</span><span class="se">\n</span><span class="s2">***********************</span><span class="se">\n</span><span class="p">";</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><em>NOTE:</em> Guillermo’s one-liner would not work on my Mac due to the formatting differences of the output from <code class="language-plaintext highlighter-rouge">ps aux</code> so be aware of that.</p>
+
+<p><br /><br /><br /><br />
+fin</p>
+:ET

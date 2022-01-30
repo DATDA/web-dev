@@ -1,0 +1,47 @@
+I",<h1 id="meeting-notes-for-january-25th-2018">Meeting Notes for January 25th, 2018</h1>
+
+<h2 id="new-meeting-time">New Meeting Time</h2>
+<p>We now meet on Thursdays from 7PM-9PM in EN4066.</p>
+
+<h2 id="activities">Activities</h2>
+<p>Adam polled the club on potential activities. The results can be found at the bottom of these notes.</p>
+
+<h2 id="datda-wars">DATDA Wars</h2>
+<p>There were some issues with the servers that are now resolved.</p>
+
+<h2 id="datda-as-a-service">DATDA as a Service</h2>
+<p>There is not much interest in working on pentesting. We decided to fulfill our existing commitments, which we need a list of.</p>
+
+<p>We decided to try doing IT work instead. There is now a #datda_it channel in the Discord and <a href="https://datda.tk/datda_it">a page on our website</a> with more information. <em>[Edited by Bugg]</em></p>
+
+<h2 id="recruitment">Recruitment</h2>
+<p>Adam will send an department-wide email for the next meeting.</p>
+
+<p>We will get posters printed and placed around the university.</p>
+
+<p>We may try to reserve a table in the union in the future.</p>
+
+<h2 id="funding">Funding</h2>
+<p>We discussed requesting funding from Rocky Mountain Power and Trihydro Corporation.</p>
+
+<hr />
+<h2 id="activity-poll-results">Activity Poll Results</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6 - Common Vulnrabilities (Web + Binary)
+6 - Cool Vulnrabilities (CVEs, High Profile Attacks)
+6 - RF
+5 - Sys Administration (Setting up Accounts, VMs, Containers, Servers)
+4 - Game Hacking (Modding, Retro Game Code Injection, Modelling)
+4 - Cryptography
+3 - Cracking (Wifi, Passwords)
+3 - CTF Solutions
+3 - OsDev
+1 - Cryptocurrencies / Blockchains
+
+8 - Lockpicking
+7 - Interactive Stuff
+7 - CTFs
+6 - Boot to Root(?)
+4.4 - Datda Wars
+</code></pre></div></div>
+:ET

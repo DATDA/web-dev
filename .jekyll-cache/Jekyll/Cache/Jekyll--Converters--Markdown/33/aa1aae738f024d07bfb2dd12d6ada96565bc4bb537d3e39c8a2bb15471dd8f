@@ -1,0 +1,42 @@
+I"M<h1 id="meeting-notes-sept-23-2021">Meeting Notes Sept. 23, 2021:</h1>
+
+<h2 id="hacker-jeopardy">Hacker Jeopardy</h2>
+
+<ul>
+  <li>Newz: This breezy campaign recently took over a popular network management software and infected thousands of companies</li>
+  <li>Toolz: <code class="language-plaintext highlighter-rouge">history | grep sl | wc -l</code></li>
+  <li>Knawledge: These are the 7 layers of the OSI network model.</li>
+</ul>
+
+<h2 id="officer-nominations">Officer Nominations</h2>
+
+<ul>
+  <li>President: scrypy</li>
+  <li>Vice-President: jarek</li>
+  <li>Secretary: Jarek</li>
+  <li>Treasurer: scrypy</li>
+  <li>campaign/elections will be held next week</li>
+</ul>
+
+<h2 id="create-plans-for-cybersecurity-month">Create plans for cybersecurity month</h2>
+
+<ul>
+  <li>security tips
+    <ul>
+      <li>social media</li>
+      <li>table in union w/ flyers</li>
+    </ul>
+  </li>
+  <li>meetup events for NCL competition</li>
+  <li>other CTF’s?</li>
+</ul>
+
+<h2 id="ctf-review-network-traffic-analysis">CTF review: Network Traffic Analysis</h2>
+
+<ul>
+  <li>introduction to cloudshark</li>
+  <li>review the different layers of the OSI/TCP-IP network models and what goes on during them</li>
+  <li>demonstration of cloud shark to analyze DNS traffic in the NCL gym</li>
+  <li>familiarize yourself with the analysis tools available in cloudshark</li>
+</ul>
+:ET

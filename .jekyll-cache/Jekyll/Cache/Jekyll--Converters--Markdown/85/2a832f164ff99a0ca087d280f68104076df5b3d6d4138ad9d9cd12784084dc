@@ -1,0 +1,39 @@
+I"€<h1 id="meeting-notes-oct-28-2021">Meeting Notes Oct. 28, 2021:</h1>
+
+<h2 id="hacker-jeopardy">Hacker Jeopardy</h2>
+
+<ul>
+  <li>Newz: THis popular webserver had yet another directory traversal vulnerability with CVE score &gt;7
+    <ul>
+      <li><a href="https://www.cvedetails.com/cve/CVE-2021-42013/">Apache Web Server</a></li>
+    </ul>
+  </li>
+  <li>Toolz:This is the command necessary to run a bash shell from within VIM
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">:!</code> <a href="https://www.howtoforge.com/tutorial/how-to-access-shell-or-run-external-commands-from-within-vim/">src</a></li>
+    </ul>
+  </li>
+  <li>Knawledge: We have no knawledge ðŸ˜¢</li>
+</ul>
+
+<h2 id="ctf-meetup--prizes">CTF Meetup &amp; Prizes</h2>
+
+<ul>
+  <li>No meeting this weekend</li>
+  <li>previous weekend went well</li>
+  <li>Gold kicked tail in the NCL Individual season</li>
+  <li>We setup the team for the NCL Team season, see link in Discord</li>
+  <li>jimmymoak got teensy from flareon</li>
+</ul>
+
+<h2 id="ctf-category-of-the-week-enumeration">CTF Category of the Week: Enumeration?</h2>
+
+<ul>
+  <li>Discuss some of the initial steps taken when presented with an Attack and Defense competition</li>
+  <li>Reviewed Lynis scan</li>
+</ul>
+
+<h2 id="raffle-giveaway">Raffle Giveaway!</h2>
+
+<p>Congrats to our raffle winner who went home with an Intro to AI/ML humble bundle book bundle!</p>
+:ET

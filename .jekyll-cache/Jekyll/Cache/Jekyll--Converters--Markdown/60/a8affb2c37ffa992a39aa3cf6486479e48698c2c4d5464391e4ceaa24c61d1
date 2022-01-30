@@ -1,0 +1,59 @@
+I"?<p><img src="https://www.kali.org/wp-content/uploads/2015/09/kali-2.0-website-logo-300x90.png" alt="Kali Logo" /></p>
+
+<p>Booting Kali is fortunately a pretty easy and painless process if you have created a USB or SD card for the image of the distro.</p>
+
+<h2 id="rationale">Rationale</h2>
+
+<p>Kali is a Linux distro, offering those interested in computer security a well-designed and convenient operating system prepackaged with many of the essential pen-testing tools.</p>
+
+<p>Installing Kali to a USB stick allows a pentester to keep handy a suite of tools for exploration separate from their day to day operating system.</p>
+
+<h2 id="what-you-will-need">What you will need</h2>
+
+<ul>
+  <li>A copy of Kali Linux.
+    <ul>
+      <li>Best obtained from the <a href="https://www.kali.org/downloads/">official Kali website.</a></li>
+    </ul>
+  </li>
+  <li>Etcher, a multiplatform USB and SD card burner.
+    <ul>
+      <li>Get it <a href="https://etcher.io/">here.</a></li>
+    </ul>
+  </li>
+  <li>A USB drive or SD Card.
+    <ul>
+      <li>8GB or more!</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<ol>
+  <li>Open Etcher.</li>
+  <li>Click “Select Image.”</li>
+  <li>Navigate to where you downloaded Kali, and select the image.</li>
+  <li>Click “Select drive.”
+    <ul>
+      <li>Note: This should be easy, as Etcher should not allow you to select an operating drive, but always make sure to double check.</li>
+    </ul>
+  </li>
+  <li>Hit “Flash.”</li>
+  <li>Have a cup of tea.</li>
+  <li>Have another cup of tea.</li>
+  <li>Hopefully by now its done. Flashing an image can take a long time.</li>
+  <li>Remove the USB or SD card from your device.</li>
+</ol>
+
+<h2 id="steps-to-boot-tldr">Steps to Boot (TLDR)</h2>
+
+<ol>
+  <li>Power down your computer.</li>
+  <li>Insert USB or SD card containing an image for Kali.</li>
+  <li>Power on your PC.</li>
+  <li>Mash whatever buttons you need to get to your boot device screen. Usually the button needed will pop up when your bios does.</li>
+  <li>After Kali pops up, select live boot.</li>
+  <li>Congrats! You’re in!</li>
+</ol>
+:ET

@@ -1,0 +1,403 @@
+I"f-<p>What’s better than weekly meetings full of fun? A Ranking System for your l337 5ki11z!
+Our badge system is meant to encourage members to ‘Level-up’ their skills in many areas, teaching useful fundamentals while providing a path towards a fuller understanding of the Cyberz!</p>
+
+<h4 id="members-complete-tasks-to-earn-badges-and-enough-badges-get-them-to-the-next-level">Members complete ‘tasks’ to earn ‘badges’, and enough ‘badges’ get them to the next ‘level’</h4>
+
+<ul>
+  <li>We don’t favor any badges over others, because all skills have their place</li>
+  <li>Tasks are submitted and voted on by the club</li>
+  <li>Tasks should link to an explanation/how-to from DATDA, but if none-exists then from an external source</li>
+  <li>To first claim a brand-new badge, future-holders must also create an explanation/how-to for the ‘task’ to link to</li>
+  <li>Badges are tracked on this page here (meta)</li>
+  <li>Levels are tracked as ‘roles’ on the Discord</li>
+  <li>Levels are updated as more badges are added (or subtracted)</li>
+  <li>The Honour System is used when completing tasks</li>
+</ul>
+
+<h2 id="levels">Levels</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Haxor Level</th>
+      <th># Badges Req</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>n00b</strong></td>
+      <td>1 Badge</td>
+    </tr>
+    <tr>
+      <td><strong>script_kiddie</strong></td>
+      <td>5 Badges</td>
+    </tr>
+    <tr>
+      <td><strong>strong_amateur</strong></td>
+      <td>10 Badges</td>
+    </tr>
+    <tr>
+      <td><strong>hacker</strong></td>
+      <td>30 Badges</td>
+    </tr>
+    <tr>
+      <td><strong>advanced_hacker</strong></td>
+      <td>50 Badges</td>
+    </tr>
+    <tr>
+      <td><strong>master_hacker</strong></td>
+      <td>ALL THE BADGES</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="badges-by-type">Badges by Type</h2>
+
+<h4 id="rf">RF</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cracking WEP</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/presentations/wep.pdf">Crack a WEP network</a></td>
+      <td>@bugg</td>
+    </tr>
+    <tr>
+      <td>Cracking WPA</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/presentations/WiFiHackingwithAircrackandJohnTheRipper.md">Crack a WPA network</a></td>
+      <td>@bugg</td>
+    </tr>
+    <tr>
+      <td>Bluetooth</td>
+      <td><a href="https://null-byte.wonderhowto.com/how-to/hack-bluetooth-part-1-terms-technologies-security-0163977/">Crack a Bluetooth pairing PIN</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>Out of Thin Air</td>
+      <td><a href="https://www.androidauthority.com/capture-data-open-wi-fi-726356/">Sniff an unencrypted user/pass off public WiFi</a></td>
+      <td>@Nobody</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="crypto">Crypto</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ceasar</td>
+      <td><a href="https://inventwithpython.com/hacking/chapter1.html">Implement a rot13 encoder/decoder physically</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>OTP</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/crypto/otp_machine.py">Implement a One-Time-Pad encoder/decoder</a></td>
+      <td>@bugg</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="osint">OSINT</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stalker</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/presentations/osint.pdf">Find a relative’s address listed publicly online</a></td>
+      <td>@bugg,@scrypy</td>
+    </tr>
+    <tr>
+      <td>Call me maybe</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/presentations/osint.pdf">Find a relative’s phone number listed publicly online</a></td>
+      <td>@bugg,@scrypy</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="forensics">Forensics</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Deleted</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/presentations/basic_forensics.pdf">Recover a ‘Deleted’ file</a></td>
+      <td>@bugg</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="reversing">Reversing</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hardcoded</td>
+      <td><a href="https://ehsandev.com/pico2014/reverse_engineering/cyborg_secrets.html">Find a hard-coded password in a binary</a></td>
+      <td>@Nobody</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="pwn">Pwn</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>So Over It</td>
+      <td><a href="https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/">Exploit a buffer-overflow vulnerability</a></td>
+      <td>@Nobody</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="hardware">Hardware</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Soldering</td>
+      <td><a href="https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all">Solder something</a></td>
+      <td>@scrypy</td>
+    </tr>
+    <tr>
+      <td>Extraction</td>
+      <td>Extract firmware from a chip</td>
+      <td>@Nobody</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="net">Net</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Secure?</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/presentations/hydra.pdf">Brute force an ssh login over the network</a></td>
+      <td>@bugg</td>
+    </tr>
+    <tr>
+      <td>Forms</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/presentations/hydra_forms.pdf">Brute force an HTML forms login over the network</a></td>
+      <td>@bugg,@scrypy</td>
+    </tr>
+    <tr>
+      <td>A/S/L?</td>
+      <td><a href="https://github.com/DATDA/main/blob/master/networking/chat.sh">Setup a ‘chat server’ using Netcat</a></td>
+      <td>@bugg</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="web">Web</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Move-Ze-Needle</td>
+      <td><a href="https://www.acunetix.com/blog/articles/exploiting-sql-injection-example/">Exploit a SQL injection vulnerability</a></td>
+      <td>@scrypy</td>
+    </tr>
+    <tr>
+      <td>XSS</td>
+      <td><a href="https://labs.detectify.com/2012/11/07/how-to-exploit-an-xss/">Exploit a Cross-Site-Scripting vulnerability</a></td>
+      <td>@scrypy</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="shell">Shell</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ESCAPE</td>
+      <td><a href="https://pen-testing.sans.org/blog/2012/06/06/escaping-restricted-linux-shells">Escape a restricted Bash shell</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>Scriptz</td>
+      <td><a href="http://linuxcommand.org/lc3_wss0010.php">Write a script</a></td>
+      <td>@scrypy</td>
+    </tr>
+    <tr>
+      <td>Extraction</td>
+      <td><a href="https://pentestlab.blog/2012/07/23/dumping-and-cracking-unix-password-hashes/">Extract hashes from a restricted shadow file</a></td>
+      <td>@scrypy</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="lock-picking">Lock Picking</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Master</td>
+      <td><a href="https://www.wikihow.com/Pick-a-Master-Padlock">Pick a MasterLock</a></td>
+      <td>@scrypy</td>
+    </tr>
+    <tr>
+      <td>Kwikset</td>
+      <td><a href="https://boingboing.net/2013/08/04/attacking-the-popular-kwikset.html">Pick a Kwikset</a></td>
+      <td>@scrypy</td>
+    </tr>
+    <tr>
+      <td>Tubular</td>
+      <td><a href="https://www.wikihow.com/Pick-a-Tubular-Lock">Pick a tubular lock</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>TSA</td>
+      <td><a href="https://lock-picking.wonderhowto.com/how-to/is-why-your-tsa-approved-luggage-locks-are-useless-0164446/">Pick a ‘TSA-Approved’ lock</a></td>
+      <td>@scrypy</td>
+    </tr>
+    <tr>
+      <td>Combo # 5</td>
+      <td><a href="https://www.instructables.com/id/Cracking-Single-Dial-Combination-Locks/">Pick a single-dial combination lock</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>Combo # 6</td>
+      <td><a href="https://unitedlocksmith.net/blog/6-best-ways-to-open-a-bike-lock">Pick a multi-dial combination lock</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>Cuff Me!</td>
+      <td><a href="https://mentalfloss.com/article/52447/how-get-out-handcuffs">Pick your way out of handcuffs</a></td>
+      <td>@Nobody</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="social-engineering">Social Engineering</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Task</th>
+      <th>Holders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tailgater</td>
+      <td><a href="https://blog.mailfence.com/what-is-tailgating/">Tailgate into a building you don’t have access to</a></td>
+      <td>@scrypy</td>
+    </tr>
+    <tr>
+      <td>Phishing</td>
+      <td><a href="https://www.pentestgeek.com/phishing/how-do-i-phish-advanced-email-phishing-tactics">Phish a target and get some creds</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>V-realy?</td>
+      <td><a href="https://blog.raxis.com/2018/04/04/phishing-part-2-calls/">Vish a target and get some creds</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>Actor</td>
+      <td><a href="https://www.social-engineer.org/framework/attack-vectors/impersonation/">Use impersonation to gain access to somewhere you don’t have access to</a></td>
+      <td>@Nobody</td>
+    </tr>
+    <tr>
+      <td>No Way Me Too!</td>
+      <td><a href="https://www.social-engineer.org/framework/influencing-others/influence-tactics/liking/">Social someone in-person and get them to reveal confidential information</a></td>
+      <td>@Nobody</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="ctf">CTF</h4>
+
+<p>|Badge|Task|Holders|
+|–|–|–|
+|Point|<a href="https://github.com/DATDA/main/blob/master/presentations/picoCTF.pdf">Put a point on the board in any CTF</a>|@bugg,@scrypy|
+|Rackin’-‘em-up|<a href="https://www.reddit.com/r/netsec/comments/y0nnu/we_are_samurai_ctf_and_we_won_defcon_ctf_this/">Find 5 flags in a single CTF</a>|@bugg,@scrypy|
+|Chicken-Dinner|<a href="https://www.reddit.com/r/netsec/comments/1k1oh4/we_are_the_plaid_parliament_of_pwning_ask_us/">Win a CTF as part of a team</a>|@Nobody|
+|One-Man-Army|<a href="https://trailofbits.github.io/ctf/">Win a CTF All By Yourself!</a>|@Nobody|</p>
+<h4 id="knowledge">Knowledge</h4>
+<p>|Badge|Task|Holders|
+|–|–|–|
+|Hello My Name Is|<a href="https://www.wikihow.com/Give-a-Presentation">Give 1 Educational Presentation</a>|@bugg,@scrypy|
+|Presenting|<a href="https://hbr.org/2013/06/how-to-give-a-killer-presentation">Give 5 Educational Presentations in 1 semester</a>|@bugg,@scrypy|
+|Club Owner|<a href="https://www.entrepreneur.com/article/274646">Give 15 Educational Presentations in 1 semester</a>|@bugg,@scrypy|</p>
+:ET

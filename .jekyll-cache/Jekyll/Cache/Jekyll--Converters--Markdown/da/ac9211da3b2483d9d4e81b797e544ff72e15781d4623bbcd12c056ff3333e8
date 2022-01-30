@@ -1,0 +1,48 @@
+I"<h1 id="meeting-notes-oct-21-2021">Meeting Notes Oct. 21, 2021:</h1>
+
+<h2 id="hacker-jeopardy">Hacker Jeopardy</h2>
+
+<ul>
+  <li>Newz: This popular software recently disclosed a bug in their ssh key generation algorithms.
+    <ul>
+      <li><a href="https://www.gitkraken.com/blog/weak-ssh-key-fix">Gitkraken</a></li>
+    </ul>
+  </li>
+  <li>Toolz: awk -v cols=$(tput cols) ‘{c=int(sin(NR/10)*(cols/6)+(cols/6))+1;print(substr($0,1,c-1)
+“\x1b[41m” substr($0,c,1) “\x1b[0m” substr($0,c+1,length($0)-c+2))}’ access_log | less -SR
+    <ul>
+      <li><a href="https://twitter.com/climagic/status/1450835437753339905">color a sine wave in a logfile output</a></li>
+    </ul>
+  </li>
+  <li>Knawledge: what port is commonly used for SSH?
+    <ul>
+      <li>22</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ctf-meetup-this-weekend">CTF Meetup this weekend</h2>
+
+<ul>
+  <li>just a couple people showed up in person last weekend for the NCL preseason, maybe b/c confusion with the poll in discord</li>
+  <li>planning on setting up a team for the NCCDC, need to cover more attack/defense topics</li>
+  <li>compete in overthewire for learning more about A&amp;D skills: <a href="https://overthewire.org/warzone/">https://overthewire.org/warzone/</a></li>
+  <li>download VM images from VulnHub to practice more A&amp;D skills: <a href="https://www.vulnhub.com/">https://www.vulnhub.com/</a></li>
+  <li><a href="https://www.nationalccdc.org/index.php/competition/regionals">https://www.nationalccdc.org/index.php/competition/regionals</a></li>
+  <li>we are in the “at large” region and need to email the director for a sign up link</li>
+</ul>
+
+<h2 id="ctf-category-of-the-week-scanning">CTF category of the week: scanning</h2>
+
+<ul>
+  <li>nmap homepage: <a href="https://nmap.org/">https://nmap.org/</a></li>
+  <li>scapy homepage: <a href="https://scapy.net/">https://scapy.net/</a></li>
+</ul>
+
+<h2 id="prizesraffles">Prizes/Raffles</h2>
+
+<ul>
+  <li>gave away one book bundle</li>
+  <li>awarded prizes for first and second place in the NCL preseason competition</li>
+</ul>
+:ET

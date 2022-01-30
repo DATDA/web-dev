@@ -1,0 +1,211 @@
+I"¸<h1 id="meeting-notes-april-04th-2019">Meeting Notes April 04th, 2019:</h1>
+
+<h2 id="hacker-jeopardy---bugg">Hacker Jeopardy -&gt; @bugg</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>Last week Kaspersky Lab announced that they had discovered a sophisicated supply chain attack which backdoored over 57,000 users of this computer manufactuer.</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">shred -uz super.secret</code></li>
+    </ul>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>This extremely popular (now) computing construct is an isolated user space in which computer programs run directly on the host operating systemâ€™s kernel (and file system) but have access to a restricted subset of its resources.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="election-stuff-from-the-constitution---iguana">Election Stuff from the Constitution -&gt; @Iguana</h2>
+<p><em>sorry for the bad formatting :( -@bugg</em></p>
+<ul>
+  <li>ARTICLE 4. OFFICERS
+    <ul>
+      <li>Section 1.
+        <ul>
+          <li>The Executive Officers of DATDA shall consist of a President, Vice President, Secretary, and a Treasurer.
+            <ul>
+              <li>
+                <ol>
+                  <li>The duties of the President shall be:
+                    <ul>
+                      <li>a. To preside over most general meetings.</li>
+                      <li>b. Call special meetings when necessary.</li>
+                      <li>c. To appoint committees.</li>
+                      <li>d. To appoint a temporary officer in the instance that a current officer is temporarily or permanently unable to fulfill their duties until an election can be held; given the successive positions to the one being filled have abdicated or are unable to abdicate their succession.</li>
+                      <li>e. To make minor decisions regarding the day-to-day operations of DATDA.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>The duties of the Vice President shall be:
+                    <ul>
+                      <li>a. To perform all duties of the President in their absence.</li>
+                      <li>b. To serve as a chairperson on most committees.</li>
+                      <li>c. To oversee all election procedures of the organization.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>The duties of the Secretary shall be:
+                    <ul>
+                      <li>a. To keep an accurate record of most organization meetings and activities.</li>
+                      <li>b. To take charge of all group-wide correspondence.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>The duties of the Treasurer shall be:
+                    <ul>
+                      <li>a. To keep an accurate and complete record of all monetary transactions.</li>
+                      <li>b. Disperse acquired fund money in accordance with regulations of the University of Wyoming.</li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>Other officers can be chosen at the discretion of the President as needed.</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Section 2.
+        <ul>
+          <li>There shall be no requirement for officership, other than one month of previous full membership in DATDA.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>ARTICLE 5. ELECTIONS AND TERMS
+    <ul>
+      <li>Section 1.
+        <ul>
+          <li>Following each selection or change of any officer/advisor, the Campus Activities Center will be notified</li>
+        </ul>
+      </li>
+      <li>Section 2.
+        <ul>
+          <li>Election Timeline
+            <ul>
+              <li>
+                <ol>
+                  <li>The officers shall be elected by the 1st week of April each spring semester. <em>[lol]</em></li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>All candidates shall be nominated from the floor at least two weeks before the scheduled elections.</li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>One week prior to the election, all candidates will have the opportunity to speak as to their qualifications and answer questions in a debate style format in order to aid the membership as they determine who to vote for</li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>Voting results must be disclosed prior to the conclusion of the meeting in which the voting takes place.</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Section 3.
+        <ul>
+          <li>Election Procedures
+            <ul>
+              <li>
+                <ol>
+                  <li>Voting shall be done by Secret Ballot</li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>Instant-Runoff Voting shall be utilized to elect each officer position in order to preserve voter choice and promote diverse ideas.</li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>Should candidates be elected to more than one position, they shall fill the role of the highest elected position, leaving the successor candidates to fill the other roll(s).</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Section 4.
+        <ul>
+          <li>Term of Office
+            <ul>
+              <li>
+                <ol>
+                  <li>Officers are considered active from the day election results are revealed until next results are revealed.</li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>This will allow time to prepare the budget, revise the constitution as needed, and prepare registration forms for the following year.</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Section 5.
+        <ul>
+          <li>Mid-Year Vacancies
+            <ul>
+              <li>
+                <ol>
+                  <li>In the instances where an Officer is not able to complete their term, a special election will be held in the same manner as the regular election procedures.</li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li>While the nomination process may be expedited, no other steps may be expedited nor any steps skipped.</li>
+                </ol>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="election-debates---iguana">Election Debates! -&gt; @Iguana</h2>
+<ul>
+  <li>All persons were nominated for all positions</li>
+  <li>Persons Nominated:
+    <ul>
+      <li>Ana, Rafer, Chris, Winston, Addison, Evan, Thaddeus, Sidney, Kelby, Bryce, Carlton, James, Sadlad (Hypeman), OhMyUser</li>
+    </ul>
+  </li>
+  <li>Positions:
+    <ul>
+      <li>President, Vice President, Secretary, Treasurer, Fundraising, Recruiting, Member Educator</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="upcomming-election-news---iguana">Upcomming Election News! -&gt; @Iguana</h2>
+<ul>
+  <li>In 1 week -&gt; Elections! (4/11/2019)</li>
+</ul>
+
+<p><br />
+@Bugg</p>
+:ET

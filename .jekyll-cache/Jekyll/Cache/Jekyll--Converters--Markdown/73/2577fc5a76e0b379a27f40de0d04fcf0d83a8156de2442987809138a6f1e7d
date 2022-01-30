@@ -1,0 +1,42 @@
+I"È<h1 id="meeting-notes-for-september-16-2021">Meeting Notes for September 16, 2021</h1>
+
+<ul>
+  <li>Agenda
+    <ul>
+      <li>Hacker Jeopardy (skipped)</li>
+      <li>Discuss INL CTF and doing that instead of the regular meeting next week
+        <ul>
+          <li>Will put it to a vote in the Discord</li>
+          <li><a href="https://gateway.on24.com/wcc/eh/3049745/icsjwg2021-fall-virtual-meeting">Link to competition</a></li>
+        </ul>
+      </li>
+      <li>Any specific CTF topics you would like covered?
+        <ul>
+          <li>none mentioned</li>
+        </ul>
+      </li>
+      <li>Begin with OSINT CTF category
+        <ul>
+          <li>Google Dorks
+            <ul>
+              <li>Check out the exploit-db <a href="https://www.exploit-db.com/google-hacking-database">Google Hacking database</a></li>
+            </ul>
+          </li>
+          <li><a href="https://www.shodan.io/">Shodan</a>
+            <ul>
+              <li>Check out the free for a lifetime student discount</li>
+              <li>Remember to be cautious when searching, any access of the devices listed by Shodan could potentially be breaking the law (NTFA&amp;&amp;NTLA)</li>
+            </ul>
+          </li>
+          <li>Maltego</li>
+        </ul>
+      </li>
+      <li>Humble Bundle Giveaway
+        <ul>
+          <li>congrats to our big winner Tyrannos for winning the Advanced Make Circuits &amp; Electronics Humble Bundle</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

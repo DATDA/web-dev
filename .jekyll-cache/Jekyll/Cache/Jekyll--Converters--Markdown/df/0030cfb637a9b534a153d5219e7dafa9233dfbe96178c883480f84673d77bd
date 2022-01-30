@@ -1,0 +1,41 @@
+I"·<h1 id="meeting-notes-march-07th-2019">Meeting Notes March 07th, 2019:</h1>
+
+<h2 id="hacker-jeopardy---bugg">Hacker Jeopardy -&gt; @bugg</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>This week at RSA, the NSA (yes that NSA) released this open-source (and free!) tool as the first real-competitor to IDA-Pro.</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">strings blobby.blob | grep flag</code></li>
+    </ul>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>What does it mean for a server (program) to listen on 0.0.0.0</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="wireshark-tutorial---scrypy">Wireshark Tutorial -&gt; @scrypy</h2>
+<ul>
+  <li>@scrypy taught us all about the basics of Wireshark</li>
+</ul>
+
+<h2 id="tor---bugg">Tor -&gt; @bugg</h2>
+<ul>
+  <li><a href="https://github.com/DATDA/main/blob/master/presentations/tor.pdf">Presentation</a></li>
+</ul>
+
+<h2 id="election-newz---iguana">Election Newz -&gt; @Iguana</h2>
+<ul>
+  <li>Nominations are next week (3/14/2019)</li>
+  <li>Then in 2 weeks speeches/debates (3/21/2019)</li>
+  <li>Then in 3 weeks Elections! (3/28/2019)</li>
+</ul>
+
+<p><br />
+@Bugg</p>
+:ET

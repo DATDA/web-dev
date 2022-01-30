@@ -1,0 +1,45 @@
+I"ù<h2 id="hacker-jeopardy">Hacker Jeopardy</h2>
+
+<ul>
+  <li>Hacker Jeopardy
+    <ul>
+      <li><em>Newz:</em> This is the popular gamer chat application that was infiltrated by notorious NPM packages
+        <ul>
+          <li>Discord <a href="https://thehackernews.com/2021/12/over-dozen-malicious-npm-packages.html">https://thehackernews.com/2021/12/over-dozen-malicious-npm-packages.html</a></li>
+        </ul>
+      </li>
+      <li><em>Toolz:</em> <code class="language-plaintext highlighter-rouge">pushd /etc/log &amp;&amp; cd ~ &amp;&amp; popd</code> (what is the result of <code class="language-plaintext highlighter-rouge">pwd</code> after running these commands?)
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">/etc/log</code></li>
+        </ul>
+      </li>
+      <li><em>Knawledge:</em> This is the name of the GNU tool used to debug executable programs
+        <ul>
+          <li>GDB</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="other-matters">Other Matters</h2>
+
+<ul>
+  <li>CTF review &amp; planning</li>
+  <li>website plans</li>
+  <li>Raffle Giveaway</li>
+  <li>money review
+    <ul>
+      <li>$1553 in the bank</li>
+      <li>$1222 in patreon, waiting to be exported</li>
+      <li>$597 spent on promo materials in Fall 2021</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Thanks to all of our wonderful sponsers on patreon and from previous fundraising activities, we were able to give away $140 worth of humble bundles, $123 worth of microcontrollers and development boards for giving away as prizes for CTF competitions, and we paid for $259 dollars worth of food to fuel our mania during capture the flag meetups.</p>
+
+<p>Speaking of our meetups! We met 14 times during our regularly scheduled meeting time in the fancy new CEDAR lab. Then we met up on the weekend 7 times on the weekends to participate in any of the 8 different capture the flag competitions over the semester. Out of those 8 different competitions our club members ranked above the 90th percentile about 2/3 of the time.</p>
+
+<p>We still have a couple of CTF competitions to compete in before the end of the year but we wanted to say thanks to everyone who has made this possible.</p>
+:ET

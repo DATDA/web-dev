@@ -1,0 +1,29 @@
+I"x<h1 id="meeting-notes-nov-11-2019">Meeting Notes Nov. 11, 2019:</h1>
+
+<h2 id="hacker-jeopardy---scrypy">Hacker Jeopardy -&gt; @scrypy</h2>
+<ul>
+  <li><strong>Newz:</strong>
+    <ul>
+      <li>Coalfire’s Gary Demercurio and Justin Wynn were arrested in Dallas County, Iowa are now being charged with this crime, which is a reduction from a felony burglary charge. (misdemeanor trespassing) https://www.theregister.co.uk/2019/11/07/coalfire_pentest_analysis/</li>
+    </ul>
+  </li>
+  <li><strong>Toolz:</strong>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">netstat -tulpn</code>  https://geekflare.com/netstat/</li>
+    </ul>
+  </li>
+  <li><strong>Knawledge:</strong>
+    <ul>
+      <li>this tool scans linux systems for common security vulnerabilities and has the added benefit of checking compliance (e.g. PCI, HIPAA, SOx) (lynis)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="cyberforce-infrastructure-analysis---scrypy">Cyberforce Infrastructure analysis -&gt; @scrypy</h2>
+<ul>
+  <li>Discussion about the infrastructure that was given to the CTF team for the 2019 Cyberforce Competition.</li>
+</ul>
+
+<p><br />
+@scrypy</p>
+:ET
